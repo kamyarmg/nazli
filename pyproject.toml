@@ -1,0 +1,86 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+# When a field is dynamic, it is the build backend’s responsibility to fill it
+# https://packaging.python.org/en/latest/specifications/version-specifiers/
+dynamic = ["version"]
+
+# name of project on PyPI
+name = "nazli"
+
+# minimum version of Python that we support
+requires-python = ">= 3.10"
+
+# project dependencies
+dependencies = []
+
+
+# lists of people identified by a name and/or an email address.
+authors = [{ name = "Kamyar M.G.", email = "kmgurmia@gmail.com" }]
+
+maintainers = [{ name = "Kamyar M.G.", email = "kmgurmia@gmail.com" }]
+
+# The “headline” of our project
+description = "Present Characters as Pixel Emoji"
+
+# A longer description of our project, to display on your project page on PyPI
+readme = "README.md"
+
+license = { file = "LICENSE" }
+
+# This will help PyPI’s search box to suggest your project when people search for these keywords.
+keywords = ["emoji", "python", "string", "cute", "funny", "NAZLI"]
+
+# A list of PyPI classifiers that apply to your project.
+classifiers = [
+    # list of classifier: https://pypi.org/classifiers/
+
+    # How mature is this project? Common values are
+    "Development Status :: 1 - Planning",
+
+    # Indicate who your project is intended for
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: File Formats :: JSON",
+
+    # Pick your license as you wish (see also "license" above)
+    "License :: OSI Approved :: MIT License",
+
+    # Specify the Python versions you support here.
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+
+[project.urls]
+Homepage = "https://example.com"
+Documentation = "https://readthedocs.org"
+Repository = "https://github.com/kamyarmg/nazli"
+Issues = "https://github.com/kamyarmg/nazli/issues"
+Changelog = "https://github.com/kamyarmg/nazli/blob/master/CHANGELOG.md"
+
+[project.scripts]
+nazli = "nazli:main"
+
+[tool.ruff]
+output-format = "full"
+show-fixes = true
+fix = false
+
+[tool.ruff.format]
+docstring-code-format = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["error"]
+
+[tool.mypy]
+show_error_codes = true
+pretty = true
+strict = true
+ignore_missing_imports = true
