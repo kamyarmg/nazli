@@ -12,6 +12,9 @@ This Python project converts text into pixel-art-style emojis, transforming each
 
 ## Installation
 
+
+## Usage
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/kamyarmg/nazli.git
@@ -21,27 +24,13 @@ This Python project converts text into pixel-art-style emojis, transforming each
 2. Import the module into your project:
    ```python
    from nazli import word_to_pixel_emoji
+
+   print(word_to_pixel_emoji("I", filled_emoji="🌺"))
+   print(word_to_pixel_emoji("Wish", filled_emoji="🌸"))
+   print(word_to_pixel_emoji("You", filled_emoji="🧊"))
+   print(word_to_pixel_emoji("The", filled_emoji="🍀"))
+   print(word_to_pixel_emoji("Best.", filled_emoji="🌟"))
    ```
-
-## Usage
-
-### Converting a Word to Pixel Emoji
-
-Here’s how to use the `word_to_pixel_emoji` function:
-
-```python
-from nazli import word_to_pixel_emoji
-
-print(word_to_pixel_emoji("I", filled_emoji="🌺"))
-print()
-print(word_to_pixel_emoji("Wish", filled_emoji="🌸"))
-print()
-print(word_to_pixel_emoji("You", filled_emoji="🧊"))
-print()
-print(word_to_pixel_emoji("The", filled_emoji="🍀"))
-print()
-print(word_to_pixel_emoji("Best.", filled_emoji="🌟"))
-```
 
 #### Output Example:
 ```

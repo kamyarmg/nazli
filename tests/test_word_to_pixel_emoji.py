@@ -4,7 +4,7 @@ from nazli import word_to_pixel_emoji
 
 
 class NazliTestCase(TestCase):
-    def test_present_A(self):
+    def test_present_A(self) -> None:
         expected_result = (
             "    🌸      \n  🌸  🌸    \n🌸🌸🌸🌸🌸  \n🌸      🌸  \n🌸      🌸  "
         )
@@ -13,7 +13,7 @@ class NazliTestCase(TestCase):
 
         self.assertEqual(expected_result, result)
 
-    def test_present_B(self):
+    def test_present_B(self) -> None:
         expected_result = (
             "🌸🌸🌸🌸    \n🌸      🌸  \n🌸🌸🌸🌸    \n🌸      🌸  \n🌸🌸🌸🌸    "
         )
@@ -22,7 +22,7 @@ class NazliTestCase(TestCase):
 
         self.assertEqual(expected_result, result)
 
-    def test_present_C(self):
+    def test_present_C(self) -> None:
         expected_result = (
             "  🌸🌸🌸    \n🌸      🌸  \n🌸          \n🌸      🌸  \n  🌸🌸🌸    "
         )
