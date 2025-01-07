@@ -1,7 +1,3 @@
-Here's a professional and comprehensive `CONTRIBUTING.md` file for your repository:
-
----
-
 # Contributing to Nazli
 
 Thank you for your interest in contributing to **Nazli**! 🎉 We welcome contributions of all kinds—whether you're fixing bugs, improving documentation, adding new features, or expanding the character set.
@@ -78,7 +74,7 @@ We welcome pull requests for bug fixes, new features, or any other improvements.
 3. **Run tests:**
    Ensure your changes don’t break existing functionality:
    ```bash
-   pytest
+   tox
    ```
 
 4. **Commit your changes:**
@@ -105,11 +101,11 @@ We’re thrilled to see contributions that expand the versatility of the project
   2. Add a new character by defining its pixel grid as a list of strings. For example:
      ```python
      PIXEL_MAP["B"] = [
-         "XXXXX",
+         "XXXX ",
          "X   X",
-         "XXXXX",
+         "XXXX ",
          "X   X",
-         "XXXXX",
+         "XXXX ",
      ]
      ```
   3. Verify your new character with test cases.
@@ -146,9 +142,6 @@ Documentation is just as important as the code itself! You can contribute by:
 
 4. **Submit a pull request:**
    Include a clear description of your changes and reference any related issues.
-
----
-
 
 ---
 
