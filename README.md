@@ -103,19 +103,4 @@ PIXEL_MAP = {
 
 ## Contributing
 
-Contributions are welcome! Feel free to submit issues or pull requests to enhance the functionality or add support for additional features.
-
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add feature-name"
-   ```
-4. Push to your branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a pull request.
+Contributions are welcome! Feel free to submit issues or pull requests to enhance the functionality or add support for additional features. For more information, please see the [CONTRIBUTING.md](CONTRIBUTING.md)
