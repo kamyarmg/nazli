@@ -10,9 +10,6 @@ This Python project converts text into pixel-art-style emojis, transforming each
 - **Flexible Input:** Handles multi-character words and adjusts spacing based on emoji width.
 - **Simple Integration:** Designed for easy integration into larger projects or standalone use.
 
-## Installation
-
-
 ## Usage
 
 1. Clone the repository:
