@@ -61,7 +61,7 @@ classifiers = [
 Homepage = "https://github.com/kamyarmg/nazli"
 Repository = "https://github.com/kamyarmg/nazli"
 Issues = "https://github.com/kamyarmg/nazli/issues"
-Changelog = "https://github.com/kamyarmg/nazli/blob/master/CHANGELOG.md"
+Changelog = "https://github.com/kamyarmg/nazli/blob/master/CHANGELOG.rst"
 
 [project.scripts]
 nazli = "nazli:main"
