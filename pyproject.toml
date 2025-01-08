@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 [project]
 # When a field is dynamic, it is the build backend’s responsibility to fill it
 # https://packaging.python.org/en/latest/specifications/version-specifiers/
-version = "1.0.0"
+version = "1.0.1"
 
 
 # name of project on PyPI
@@ -62,7 +62,7 @@ classifiers = [
 Homepage = "https://github.com/kamyarmg/nazli"
 Repository = "https://github.com/kamyarmg/nazli"
 Issues = "https://github.com/kamyarmg/nazli/issues"
-Changelog = "https://github.com/kamyarmg/nazli/blob/master/CHANGELOG.rst"
+Changelog = "https://github.com/kamyarmg/nazli/blob/master/CHANGES.rst"
 
 [project.scripts]
 nazli = "nazli:main"
