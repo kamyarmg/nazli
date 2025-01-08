@@ -58,8 +58,7 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://example.com"
-Documentation = "https://readthedocs.org"
+Homepage = "https://github.com/kamyarmg/nazli"
 Repository = "https://github.com/kamyarmg/nazli"
 Issues = "https://github.com/kamyarmg/nazli/issues"
 Changelog = "https://github.com/kamyarmg/nazli/blob/master/CHANGELOG.md"
