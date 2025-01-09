@@ -12,10 +12,9 @@ This Python project converts text into pixel-art-style emojis, transforming each
 
 ## Usage
 
-1. Clone the repository:
+1. Install `nazli`:
    ```bash
-   git clone https://github.com/kamyarmg/nazli.git
-   cd nazli
+   pip install nazli
    ```
 
 2. Import the module into your project:
